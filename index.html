@@ -2,14 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Buscador Vehicular</title>
+  <title>Buscador Vehicular por Número de Parte</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Buscador vehicular para consultar aplicaciones, referencias OEM y cruces de piezas automotrices por número de parte. Ideal para técnicos, talleres e importadores.">
 
   <style>
     body{
       margin:0;
       font-family: Arial, Helvetica, sans-serif;
       background:#f6f7fb;
+      color:#222;
     }
     header{
       background:#111;
@@ -18,10 +21,31 @@
       font-size:20px;
       font-weight:bold;
     }
+    section{
+      padding:20px;
+      max-width:1000px;
+      margin:auto;
+    }
     iframe{
       width:100%;
-      height:calc(100vh - 56px);
+      height:calc(100vh - 360px);
       border:none;
+      background:#fff;
+    }
+    footer{
+      background:#f1f1f1;
+      padding:20px;
+      text-align:center;
+      font-size:14px;
+      color:#555;
+    }
+    footer a{
+      color:#333;
+      text-decoration:none;
+      margin:0 8px;
+    }
+    footer a:hover{
+      text-decoration:underline;
     }
   </style>
 </head>
@@ -32,9 +56,46 @@
   Buscador Vehicular
 </header>
 
+<section>
+  <h1>Buscador Vehicular por Número de Parte</h1>
+
+  <p>
+    Esta herramienta permite buscar información vehicular utilizando
+    números de parte automotrices. El sistema consulta aplicaciones,
+    referencias OEM, cruces de piezas y datos técnicos relevantes
+    para vehículos.
+  </p>
+
+  <p>
+    Está diseñada para apoyar a <strong>talleres mecánicos</strong>,
+    <strong>importadores</strong>, <strong>vendedores de repuestos</strong>
+    y profesionales del sector automotriz que necesitan validar
+    compatibilidades de piezas de forma rápida y confiable.
+  </p>
+
+  <p>
+    Los resultados obtenidos provienen de fuentes técnicas especializadas
+    y se muestran con fines informativos.
+  </p>
+</section>
+
 <iframe 
-  src="https://script.google.com/macros/s/AKfycbwJtgJhfkQVQn6l5gIE7GlAmlSX0t93U8R3PWs20b77h2051q7brUuu2nrUgI_ptcQ/exec">
+  src="https://script.google.com/macros/s/AKfycbwJtgJhfkQVQn6l5gIE7GlAmlSX0t93U8R3PWs20b77h2051q7brUuu2nrUgI_ptcQ/exec"
+  title="Buscador Vehicular">
 </iframe>
+
+<footer>
+  <p>
+    © 2026 Buscador Vehicular · Creado por Luis Espinal
+  </p>
+  <p>
+    <a href="about.html">Sobre nosotros</a> |
+    <a href="privacy.html">Política de privacidad</a> |
+    <a href="terms.html">Términos y condiciones</a> |
+    <a href="contact.html">Contacto</a>
+  </p>
+</footer>
 
 </body>
 </html>
+
